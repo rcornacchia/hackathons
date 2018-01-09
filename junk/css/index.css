@@ -1,0 +1,27 @@
+.sku-panel {
+  height: 75px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border-right-width: thick;
+
+}
+
+.panel:nth-child(1) {
+  border-right-color: rgba(255, 99, 132, 1);
+}
+
+.panel:nth-child(2) {
+  border-right-color: rgba(255, 206, 86, 1);
+}
+
+.panel:nth-child(3) {
+  border-right-color: rgba(75, 192, 192, 1);
+}
+
+.panel:nth-child(4) {
+  border-right-color: rgba(153, 102, 255, 1);
+}
+
+.panel:nth-child(5) {
+  border-right-color: rgba(255, 159, 64, 1);
+}

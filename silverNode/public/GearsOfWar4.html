@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silver Surfer</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Silver Surfer</a>
+        </div>
+        <div class="col-md-2 pull-right">
+            <form class="navbar-form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-btn">
+                  <button class="btn btn-primary" type="button" onclick="location.href = 'Madden17.html';">
+                    <i class="glyphicon glyphicon-search"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 sidebar">
+          <ul class="nav nav-sidebar">
+            <div class="panel panel-default" style="background-color: #428bca; color: white;">
+              <div class="panel-body" >
+                <h4 style="float: left">Gears Of War 4</h4>
+                <h4 style="float: right;" class="pull-right">Predicted: 967,466</h4>
+              </div>
+            </div>
+            <h3 style="text-align:center">Similar games:</h3>
+            <div class="panel panel-default">
+              <div class="panel-body" >
+                <p style="float: left">Halo 5: Guardians</p>
+                <p style="float: right;" class="pull-right">Units: 1,535,818</p>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body" >
+                <p style="float: left">Gears of War 3</p>
+                <p style="float: right;" class="pull-right">Units: 280,524</p>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p style="float: left">Halo 4</p>
+                <p style="float: right;" class="pull-right">Units: 901,859</p>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p style="float: left">Sunset Overdrive</p>
+                <p style="float: right;" class="pull-right">Units: 221,920</p>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body" >
+                <p style="float: left">Alien: Isolation</p>
+                <p style="float: right;" class="pull-right">Units: 82,667</p>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <!--<div class="col-md-9 col-md-offset-3">
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">Left</button>
+            <button type="button" class="btn btn-default">Middle</button>
+            <button type="button" class="btn btn-default">Right</button>
+          </div>        
+        </div>-->
+        <div class="col-md-9 col-md-offset-3 main chart1" style="height:40vh; text-align:center">
+          <h3>Twitter Data</h3>
+          <canvas id="myChart" width="400px" height="650px"></canvas>
+        </div>
+        <div class="col-md-9 col-md-offset-3 main chart2" style="height:40vh; text-align:center; margin-top:25px;">
+          <h3>Google Data</h3>
+          <canvas id="myChart2" width="400px" height="650px"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"></script>
+    <script src="GearsOfWar4.js"></script>
+  </body>
+</html>
